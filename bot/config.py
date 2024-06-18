@@ -7,20 +7,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("7242829555:AAF_3l-ccXL2xxu12YTctCbHuE3a4atkLko")
 
     SESSION_NAME = ":memory:"
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = int(os.environ.get("23682259"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("2d37bb900bfa753d546ba475d8deb35a")
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = os.environ.get("648958063480-29qgcobnmodbidbovgtvlhtpve3netjk.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = os.environ.get("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")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-
+    BOT_OWNER = int(os.environ.get("@nikita20056")
+    
     BOT_START_TIME = time.time()
     
     BOT_START_DATETIME = datetime.datetime.now().strftime("%B %d, %Y %I:%M:%S %p")
